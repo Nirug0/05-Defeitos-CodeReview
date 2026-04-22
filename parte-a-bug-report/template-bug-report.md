@@ -4,9 +4,13 @@
 > exigido é **3 bug reports**. Apague este bloco antes de entregar.
 
 **Dupla:** Nicolas Ruiz 187222
+
 **Data da exploração:** 22/04/2025
+
 **Navegador usado:** Chrome 121
+
 **Sistema operacional:** Windows 11
+
 
 ---
 
