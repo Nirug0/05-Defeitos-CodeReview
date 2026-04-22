@@ -47,7 +47,7 @@ Número errado de tarefas, acima do normal.
 > `evidencias/` ao lado deste arquivo e referencie o arquivo aqui.
 
 **Sugestão de causa raiz (opcional):**
-[Palpite informado — útil para quem vai corrigir.]
+É a prioridade 5, porém não sei o motivo.
 
 ---
 
