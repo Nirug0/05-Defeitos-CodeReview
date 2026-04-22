@@ -16,7 +16,7 @@
 
 ## BUG-001
 
-**Título:** [VISUAL] Número de tarefas aparece como um número maior do que o apresentado.
+**Título:** [LISTA] Número de tarefas aparece como um número maior do que o apresentado.
 
 **Severidade:** Baixa
 **Justificativa da severidade:** (É fácil de perceber que o número está somente errado.)
@@ -41,7 +41,7 @@ Número certo de tarefas.
 Número errado de tarefas, acima do normal.
 
 **Evidência:**
-[Pendentes aparece como "2", sendo que é somente 1.](evidencias/bug1.png)
+[Pendentes aparece como "2", sendo que é somente 1.](bug1.png)
 
 > Se preferir anexar um GIF ou arquivo de log, crie uma pasta
 > `evidencias/` ao lado deste arquivo e referencie o arquivo aqui.
