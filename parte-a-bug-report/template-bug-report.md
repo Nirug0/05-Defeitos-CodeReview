@@ -3,10 +3,10 @@
 > Preencha uma seção completa para cada defeito encontrado. O mínimo
 > exigido é **3 bug reports**. Apague este bloco antes de entregar.
 
-**Dupla:** [Nome 1 + RA] + [Nome 2 + RA]
-**Data da exploração:** [DD/MM/AAAA]
-**Navegador usado:** [Chrome 121 / Firefox 122 / Safari 17 / …]
-**Sistema operacional:** [Windows 11 / macOS 14 / Ubuntu 22.04 / …]
+**Dupla:** Nicolas Ruiz 187222
+**Data da exploração:** 22/04/2025
+**Navegador usado:** Chrome 121
+**Sistema operacional:** Windows 11
 
 ---
 
