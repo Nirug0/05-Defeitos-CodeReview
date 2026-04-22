@@ -10,9 +10,9 @@
 
 | Nome completo | RA | GitHub |
 |---|---|---|
-| [Nicolas Ruiz] | [187222] | [@Nirug0] |
+| Nicolas Ruiz | 187222 | @Nirug0 |
 
-**Ambiente de testes:** [Descreva brevemente o setup — ex: Chrome 121 no Windows 11, GitHub Pages do fork, editor web do GitHub]
+**Ambiente de testes:** GitHub Pages do fork
 
 ---
 
