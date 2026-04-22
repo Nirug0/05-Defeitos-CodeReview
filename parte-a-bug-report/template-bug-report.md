@@ -16,32 +16,33 @@
 
 ## BUG-001
 
-**Título:** [CONTEXTO] Descrição específica e acionável do problema
+**Título:** [VISUAL] Número de tarefas aparece como um número maior do que o apresentado.
 
-**Severidade:** Crítica | Alta | Média | Baixa
-**Justificativa da severidade:** (1-2 frases explicando o impacto técnico)
+**Severidade:** Baixa
+**Justificativa da severidade:** (É fácil de perceber que o número está somente errado.)
 
-**Prioridade:** P1 | P2 | P3 | P4
-**Justificativa da prioridade:** (1-2 frases explicando a urgência de negócio)
+**Prioridade:** P2
+**Justificativa da prioridade:** (É possível conviver com o bug, porém chato)
 
 **Ambiente:**
-- Navegador: [ex.: Chrome 121.0]
-- Sistema Operacional: [ex.: Windows 11]
+- Navegador: Chrome 121
+- Sistema Operacional: Windows 11
 - Versão da aplicação: TarefaQS v1.0.0
 
 **Passos para reprodução:**
-1. Passo numerado e objetivo
-2. Outro passo claro o suficiente para qualquer pessoa reproduzir
-3. ...
+1. Escrever as informações da tarefa
+2. Na opção de "Prioridade", colocar prioridade 5
+3. A lista conta a tarefa duas vezes, aparecendo com um número a mais de tarefas
 
 **Resultado esperado:**
-[O que deveria acontecer segundo o comportamento desejado.]
+Número certo de tarefas.
 
 **Resultado obtido:**
-[O que efetivamente acontece.]
+Número errado de tarefas, acima do normal.
 
 **Evidência:**
-![Descrição da evidência](evidencias/bug-001-captura.png)
+Pendentes aparece como "2", sendo que é somente 1. 
+
 
 > Se preferir anexar um GIF ou arquivo de log, crie uma pasta
 > `evidencias/` ao lado deste arquivo e referencie o arquivo aqui.
