@@ -41,8 +41,7 @@ Número certo de tarefas.
 Número errado de tarefas, acima do normal.
 
 **Evidência:**
-Pendentes aparece como "2", sendo que é somente 1. 
-
+[Pendentes aparece como "2", sendo que é somente 1.](evidencias/bug1.png)
 
 > Se preferir anexar um GIF ou arquivo de log, crie uma pasta
 > `evidencias/` ao lado deste arquivo e referencie o arquivo aqui.
