@@ -53,29 +53,30 @@ Número errado de tarefas, acima do normal.
 
 ## BUG-002
 
-**Título:**
+**Título:** [LISTA] É possível adicionar tarefas com prioridade maior que 5.
 
-**Severidade:**
-**Justificativa da severidade:**
+**Severidade:** Alta
+**Justificativa da severidade:** Eu posso estar buscando por tarefas de prioridade máxima, onde o número "5" fica vermelho, porém a tarefa estaria com um número errado e sem o vermelho de alerta.
 
-**Prioridade:**
-**Justificativa da prioridade:**
+**Prioridade:** Média
+**Justificativa da prioridade:** Acho dificil selecionar a prioridade errada.
 
 **Ambiente:**
-- Navegador:
-- Sistema Operacional:
+- Navegador: Chrome 121
+- Sistema Operacional: Windows 11
 - Versão da aplicação: TarefaQS v1.0.0
 
 **Passos para reprodução:**
-1.
-2.
-3.
+1. Escrever as informações da tarefa
+2. Na opção de "Prioridade", colocar prioridade acima de 5
+3. A lista deveria recusar, porém aceita
 
-**Resultado esperado:**
+**Resultado esperado:** Não aceitar a tarefa com prioridade acima de 5.
 
-**Resultado obtido:**
+**Resultado obtido:** Tarefa aceita.
 
 **Evidência:**
+[Tarefa aparece como prioridade "7"](bug2.png)
 
 **Sugestão de causa raiz (opcional):**
 
