@@ -76,7 +76,7 @@ Número errado de tarefas, acima do normal.
 **Resultado obtido:** Tarefa aceita.
 
 **Evidência:**
-[Tarefa aparece como prioridade "7"](bug2.png)
+[Tarefa aparece como prioridade "10"](bug2.png)
 
 **Sugestão de causa raiz (opcional):**
 
@@ -84,29 +84,30 @@ Número errado de tarefas, acima do normal.
 
 ## BUG-003
 
-**Título:**
+**Título:** [LISTA] Tarefa pode ser colocada sem prioridade.
 
-**Severidade:**
-**Justificativa da severidade:**
+**Severidade:** Baixa
+**Justificativa da severidade:** Acho quase impossível alguém adicionar uma tarefa sem prioridade
 
-**Prioridade:**
-**Justificativa da prioridade:**
+**Prioridade:** Baixa
+**Justificativa da prioridade:** Acho quase impossível alguém adicionar uma tarefa sem prioridade
 
 **Ambiente:**
-- Navegador:
-- Sistema Operacional:
-- Versão da aplicação: TarefaQS v1.0.0
+- Navegador: Chrome 121
+- Sistema Operacional: Windows 11
+- Versão da aplicação: TarefaQS v1.0.00.0
 
 **Passos para reprodução:**
-1.
-2.
-3.
+1. Escrever o nome da tarefa
+2. Na opção de "Prioridade", não colocar nada
+3. A lista deveria recusar, porém aceita, e fica uma tarefa sem prioridade (NaN)
+4. 
+**Resultado esperado:** Recusar a tarefa sem prioridade.
 
-**Resultado esperado:**
-
-**Resultado obtido:**
+**Resultado obtido:** Tarefa aceita.
 
 **Evidência:**
+[Tarefa aparece como prioridade "NaN"](bug3.png)
 
 **Sugestão de causa raiz (opcional):**
 
