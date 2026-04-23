@@ -266,16 +266,12 @@ if (usuario.suspenso) return 0;
 
 | # | Linha | Dimensão | Rótulo | Severidade |
 |---|-------|----------|--------|------------|
-| 1 |       |          |        |            |
-| 2 |       |          |        |            |
-| 3 |       |          |        |            |
-| 4 |       |          |        |            |
+| 1 |   12-13    |  Segurança        |  blocker     | Crítica            |
+| 2 |   16-32    |    Erros / Padrões      | major       | Alta           |
+| 3 |    7, 11, 16, 36 (Funções Async)   | Erros         |     major   |  Alta          |
+| 4 |   36-42    |   Erros / Padrões       |     major   |     Média       |
 | 5 | 45-103  |  Complexibilidade / Legibilidade  | major | Média |
 | 6 | 105-141 |   Padrões   |   nit   |   Baixa   |
-
-### Findings detalhadas
-
-> Cole integralmente aqui suas findings copiadas do formulário.
 
 ---
 
@@ -285,11 +281,11 @@ if (usuario.suspenso) return 0;
 
 **Qual dimensão do checklist foi mais difícil aplicar? Por quê?**
 
-[Escrevam aqui.]
+Segurança, não tive facilidade de entender apenas lendo o código.
 
 **O que vocês fariam diferente se revisassem o código novamente?**
 
-[Escrevam aqui.]
+Anotaria enquanto vejo para não ter que voltar o código depois.
 
 ---
 
@@ -300,9 +296,9 @@ if (usuario.suspenso) return 0;
 
 - [ ] Não usamos IA nesta atividade.
 - [ ] Usamos IA para esclarecer conceitos teóricos.
-- [ ] Usamos IA para revisar a redação dos bug reports.
+- [X] Usamos IA para revisar a redação dos bug reports.
 - [ ] Usamos IA para discutir se um achado era ou não um defeito.
-- [ ] Uso específico: [descreva]
+- [X] Uso específico: Facilitar para escrever os Findings da parte B
 
 ### Declaração de autoria
 
